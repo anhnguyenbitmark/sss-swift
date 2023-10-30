@@ -6,6 +6,10 @@ import PackageDescription
 let package = Package(
     name: "ShamirSecretSharing",
     products: [
+        .library(
+            name: "ShamirSecretSharing",
+            targets: ["ShamirSecretSharing"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
